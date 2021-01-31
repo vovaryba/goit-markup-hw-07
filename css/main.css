@@ -325,31 +325,6 @@ summary {
   display: list-item;
 }
 
-/** Точечные стили */
-.underline {
-  text-decoration: underline;
-}
-
-.upcase {
-  text-transform: uppercase;
-}
-
-.hidden {
-  position: absolute;
-  clip: rect(0 0 0 0);
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-}
-
-.container {
-  margin-right: auto;
-  margin-left: auto;
-  width: 1200px;
-  padding-right: 15px;
-  padding-left: 15px;
-}
-
 /** Общие стили */
 body {
   color: #757575;
@@ -368,6 +343,7 @@ ul {
   list-style: none;
 }
 
+/** Кнопка */
 .button {
   min-width: 200px;
   min-height: 50px;
@@ -386,6 +362,7 @@ ul {
   cursor: pointer;
 }
 
+/** Заглавие секции */
 .section-title {
   margin-top: 0;
   margin-bottom: 50px;
@@ -396,6 +373,7 @@ ul {
   line-height: 1.17;
 }
 
+/** Список секции */
 .section-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -408,12 +386,14 @@ ul {
   padding-left: 0;
 }
 
+/** Фото и картинки */
 .section-photo {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
+/** Соц. сети */
 .social-links {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -456,6 +436,41 @@ ul {
   fill: currentColor;
 }
 
+/** Заглавие соцсетей и подписки в футере*/
+.footer__title {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+/** Точечные стили */
+.underline {
+  text-decoration: underline;
+}
+
+.upcase {
+  text-transform: uppercase;
+}
+
+.hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
 /** Хедер */
 .page-header {
   position: fixed;
@@ -477,14 +492,7 @@ ul {
           align-items: center;
 }
 
-/** Навигация */
-nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-/** Лого */
+/** Логотип */
 .logo {
   display: block;
   margin-top: 0;
@@ -503,6 +511,13 @@ nav {
 
 .logo__part {
   color: #000000;
+}
+
+/** Навигация */
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .site-nav {
@@ -610,7 +625,6 @@ nav {
   fill: currentColor;
 }
 
-/** Мейн */
 /** Герой */
 .hero {
   background-color: #2f303a;
@@ -852,7 +866,7 @@ footer {
           align-items: baseline;
 }
 
-/** Лого  */
+/** Лого в футере  */
 .footer__logo {
   margin-bottom: 20px;
 }
@@ -981,17 +995,6 @@ footer {
   fill: currentColor;
 }
 
-/** Соцсети и подписка */
-.join__title,
-.subscribe__title {
-  margin-top: 0;
-  margin-bottom: 20px;
-  color: #ffffff;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-}
-
 /** Модальное окно */
 .backdrop.is-hidden {
   opacity: 0;
@@ -1077,6 +1080,7 @@ footer {
   line-height: 1.15;
 }
 
+/** Форма обратной связи */
 .call-back {
   width: 448px;
   margin-right: auto;
@@ -1230,12 +1234,6 @@ footer {
 }
 
 /*! Страница portfolio.html */
-/** Мейн */
-.projects {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 /** Фильтр */
 .filter {
   display: -webkit-box;
@@ -1279,6 +1277,11 @@ footer {
 }
 
 /** Проекты */
+.projects {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .projects-list {
   display: -webkit-box;
   display: -ms-flexbox;
